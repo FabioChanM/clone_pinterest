@@ -1,0 +1,134 @@
+@media screen and (max-width: 820px) {
+.busqueda{
+  background-color: white;
+  text-align: right;
+ display: none;
+}
+.search{
+  display: none;
+}
+
+.cabecera {
+  width: 800px;
+ justify-content: left;
+}
+.menu2{
+  margin-right: 400px !important;
+}
+.user{
+  font-size: 30px;
+  display: block;
+}
+.avatar{
+  display: none;
+  border: 1px red solid;
+  padding: 0px;
+  font-size: 15px;
+  text-align: center;
+  align-items: center;
+  border-radius: 50px;
+  height: 30px;
+  width: 30px;
+  background-color: var(--grey);
+}
+
+#lupa2{
+  display: block;
+  font-size: 30px;
+}
+.btn_hoy{
+  display: none;
+}
+.Inicio{
+  display: block;
+}
+.pestana{
+  margin-right: 5px;
+}
+.btn_inicio{
+  display: none;
+}
+.gallery{
+  text-align: center;
+  justify-content: center;
+  columns: 3 150px;
+  max-width: 1000px;
+}
+.gallery img{
+  object-fit: contain;
+  text-align: center;
+  align-items: center;
+  border-radius: 20px;
+  max-width: 100%;
+  margin-bottom: 0.5em;
+  display: block;
+  margin: 20px;
+}
+}
+@media screen and (max-width: 520px) {
+  .busqueda{
+    background-color: white;
+    text-align: right;
+   display: none;
+  }
+  .search{
+    display: none;
+  }
+  
+  .cabecera {
+    width: 400px;
+   justify-content: left;
+  }
+  .menu2{
+    margin-right: 150px !important;
+  }
+  .user{
+    font-size: 30px;
+    display: block;
+  }
+  .avatar{
+    display: none;
+    border: 1px red solid;
+    padding: 0px;
+    font-size: 15px;
+    text-align: center;
+    align-items: center;
+    border-radius: 50px;
+    height: 30px;
+    width: 30px;
+    background-color: var(--grey);
+  }
+  
+  #lupa2{
+    display: block;
+    font-size: 30px;
+  }
+  .btn_hoy{
+    display: none;
+  }
+  .Inicio{
+    display: block;
+  }
+  .pestana{
+    margin-right: 5px;
+  }
+  .btn_inicio{
+    display: none;
+  }
+  .gallery{
+    text-align: center;
+    justify-content: center;
+    columns: 1 150px;
+  }
+  .gallery img{
+    object-fit: contain;
+    text-align: center;
+    align-items: center;
+    border-radius: 20px;
+    max-width: 100%;
+    margin-bottom: 0.5em;
+    display: block;
+    margin: 20px;
+  }
+  }
+  
