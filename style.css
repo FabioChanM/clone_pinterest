@@ -138,6 +138,7 @@ nav{
 .card_image{
 text-align: left;
   position: relative;
+  display: flex;
 }
 .card_image a{
   color: white;
@@ -150,21 +151,20 @@ text-align: left;
   color: black;
 }
 .card_image:hover #arrow{
-  padding: 10px;
   justify-content: center;
   background-color: #E9E9E9;
   color: black;
   position: absolute;
   display: block;
+  margin: auto;
   border-radius: 40px;
   text-decoration: none;
  z-index: 3;
+ height: 40px;
+ width: 40px;
  cursor: pointer;
- margin-left: 300px;
-margin-top: 150px;
 }
 .card_image:hover #ellie{
-  padding: 10px;
   justify-content: center;
   background-color: #E9E9E9;
   color: black;
@@ -173,9 +173,10 @@ margin-top: 150px;
   border-radius: 40px;
   text-decoration: none;
  z-index: 3;
+ height: 40px;
+ width: 40px;
  cursor: pointer;
- margin-left: 350px;
- margin-top: 150px;
+ border: 1px red solid;
 }
 
 .card_image:hover a{
@@ -199,4 +200,3 @@ margin-top: 150px;
 .card_image:hover img{
   filter: brightness(50%);
 }
-
